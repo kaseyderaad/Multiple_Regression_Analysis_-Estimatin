@@ -1,0 +1,6 @@
+data(gpa1, package = 'wooldridge')
+lm(colGPA ~ hsGPA + ACT, data = gpa1)
+(GPAres <- summary(lm(colGPA ~ hsGPA + ACT,  data = gpa1)))
+   # colGPA = College GPA
+   # hsGPA  = High School GPA
+   # ACT    = ACT exam score
